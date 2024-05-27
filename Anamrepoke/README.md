@@ -1,5 +1,5 @@
 # Anamrepoke
 
 ```ruby
-puts "Hallo, Kak"
+puts "Hallo, Kak!"
 ```
