@@ -3,7 +3,7 @@ import React from 'react';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0, name: 'Budi' };
+    this.state = { count: 0, name: 'Eko' };
   }
 
   handleClick = () => {
@@ -30,7 +30,7 @@ class App extends React.Component {
 
     return (
       <div className="rt" style={styles.rt}>
-        <p style={styles.p}>Halo, {this.state.count}</p>
+        <p style={styles.p}>Halo, {this.state.name}</p>
         <button style={styles.button} onClick={this.handleClick}>+</button>
       </div>
     );
