@@ -31,6 +31,8 @@ class App extends React.Component {
     return (
       <div className="rt" style={styles.rt}>
         <p style={styles.p}>Halo, {this.state.name}</p>
+        <br>
+        <p style={styles.p}>Hitung = {this.state.count}</p>
         <button style={styles.button} onClick={this.handleClick}>+</button>
       </div>
     );
