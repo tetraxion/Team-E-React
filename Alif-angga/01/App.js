@@ -1,6 +1,7 @@
 import React from 'react';
 import Item01 from './item01' // Import wajib
 import Headd from './header';
+import Footer from './footer';
 
 
 class App extends React.Component{
@@ -43,14 +44,14 @@ class App extends React.Component{
       <button onClick={() => {this.handleClick()}}> Ubah State </button>
       </div>
 
-      <Headd />
+      <Footer />
      </div>
     )
   }
 }
 
 let styles = {
-  in: {display: 'flex', justifyContent: 'center'},
+  in: {display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px'},
   inC: {display: 'flex', border: '1px solid red', width: '50%'},
   inP: {padding: '10', color: 'red'},
 }
