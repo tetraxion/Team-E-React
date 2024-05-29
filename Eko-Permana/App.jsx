@@ -2,12 +2,12 @@ import React from 'react';
 
 class App extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = { count: 0, name: 'Eko' };
+    super(props)
+    this.state = { count: 0, firstName: 'Eko', lastName: 'Permana' };
   }
 
   handleClick = () => {
-    this.setState({ count: this.state.count + 1 });
+    this.setState({ count: this.state.count + 1 })
   }
 
   render() {
@@ -17,7 +17,7 @@ class App extends React.Component {
       },
       p: {
         fontSize: 24,
-        marginBottom: 10,
+        marginBottom: 20,
       },
       button: {
         fontSize: 16,
@@ -26,16 +26,15 @@ class App extends React.Component {
         borderRadius: 4,
         cursor: 'pointer',
       },
-    };
+    }
 
     return (
       <div className="rt" style={styles.rt}>
-        <p style={styles.p}>Halo, {this.state.name}</p>
-        <br>
+        <p style={styles.p}>Halo, {this.state.firstName} {this.state.lastName}</p>
         <p style={styles.p}>Hitung = {this.state.count}</p>
         <button style={styles.button} onClick={this.handleClick}>+</button>
       </div>
-    );
+    )
   }
 }
 
