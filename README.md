@@ -11,3 +11,6 @@ dengan aturan:
 - form input
 - form detection. Jika form kosong munculkan error
 - print hasil akhir dari form jika "submit" button
+
+Note:
+
