@@ -13,4 +13,5 @@ dengan aturan:
 - print hasil akhir dari form jika "submit" button
 
 Note:
+[Contoh hasil jadi](./Alif-angga/02/App.js)
 
