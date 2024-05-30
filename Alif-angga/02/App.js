@@ -45,7 +45,7 @@ Form tidak boleh kosong
 
 
 
-  appForm(){
+  appForm(){ // Ini adalah HTML form
     return(
       <form>
         <h2>Formulir Pesanan</h2>
@@ -74,9 +74,7 @@ Form tidak boleh kosong
         <div className='appSubtitute'>
           <Header />
 
-          {this.state.fformN}
-
-          {this.state.fform? this.appForm() : <p>Submited form!</p>}
+          {this.state.fform? this.appForm() : <p>Submited form!</p>} {/* <==== If statement apakah state true/false */}
 
           <h1>List Buah:</h1>
           
