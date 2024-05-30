@@ -1,11 +1,11 @@
 # Team-E-React
 
-Ini adalah tempat untuk pengumpulan project sederhana saat live session.
-INi adalah branch utama!!
+Latihan hari ini:
+
+membuat website counter, seperti dibawah:
+![image](https://github.com/playmakermz/Team-E-React/assets/60807663/f57983cb-8df4-456d-8f1b-17442d8fed96)
 
 
-
-
-
-
-halo saya mau conflict disini
+dengan aturan:
+- Header, Content, Footer component
+- dan menggunakan fungsi array.map()
