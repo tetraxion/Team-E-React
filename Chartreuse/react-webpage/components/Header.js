@@ -14,6 +14,9 @@ const styles = {
     header: {
         backgroundColor: "papayawhip",
         color: "tomato",
+        textAlign: "center",
+        height: "60px",
+        marginBottom: "30px"
     },
     h1: {
         margin: "0"
