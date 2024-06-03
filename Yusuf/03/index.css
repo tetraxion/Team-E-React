@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0; /* Warna latar belakang yang lebih lembut */
+}
+
+code {
+  font-family: "Courier New", Courier, monospace; /* Ganti dengan font yang lebih mudah dibaca untuk kode */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Menggunakan nilai minimum tinggi tampilan */
+}
+
+.appSubtitute {
+  display: flex;
+  flex-direction: column;
+  width: 80%; /* Lebar konten yang lebih luas */
+  max-width: 600px; /* Lebar maksimum konten */
+  padding: 20px; /* Padding tambahan */
+  border: 2px solid #333; /* Garis tepi yang lebih halus */
+  border-radius: 10px; /* Sudut border yang lebih halus */
+  background-color: #fff; /* Latar belakang putih */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek ketinggian */
+}
+
+.headerM {
+  background-color: black;
+  color: white;
+  padding: 10px; /* Padding tambahan untuk header */
+}
+
+.appButton {
+  width: 120px; /* Lebar tombol yang lebih besar */
+  padding: 10px; /* Padding tambahan untuk tombol */
+  background-color: #ffcc00; /* Warna kuning yang menarik */
+  border: none; /* Hapus border untuk tampilan yang lebih bersih */
+  border-radius: 5px; /* Sudut border yang lebih halus */
+  cursor: pointer; /* Ubah kursor saat mengarah ke tombol */
+  margin-top: 10px; /* Jarak atas antara tombol */
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px; /* Padding tambahan untuk header */
+}
