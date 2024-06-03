@@ -1,0 +1,98 @@
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.app {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+section > button {
+    align-self: flex-start;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper > .error {
+    color: red;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 5px 20px;
+    border: 2px solid yellow;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.item > div > button {
+    color: white;
+    border: 0;
+    border-radius: 30%;
+    height: 100%;
+}
+
+.item .delete {
+    background-color: red;
+}
+
+.item .update {
+    background-color: green;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000;
+    background-color: #00000066;
+  }
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
