@@ -9,11 +9,11 @@ class App extends React.Component {
       showError: false,
       showForm: true,
       brands: [
-        { name: 'Nike', id: 1 },
-        { name: 'Adidas', id: 2 },
-        { name: 'Puma', id: 3 },
-        { name: 'Reebok', id: 4 },
-        { name: 'New Balance', id: 5 },
+        { name: 'Nike', id: crypto.randomUUID() },
+        { name: 'Adidas', id: crypto.randomUUID() },
+        { name: 'Puma', id: crypto.randomUUID() },
+        { name: 'Reebok', id: crypto.randomUUID() },
+        { name: 'New Balance', id: crypto.randomUUID() },
       ],
       editBrandId: null
     };
@@ -63,7 +63,7 @@ class App extends React.Component {
   addBrand() {
     const newBrand = {
       name: this.state.namaBrand,
-      id: this.state.brands.length + 1
+      id: crypto.randomUUID()
     };
     this.setState((prevState) => ({
       brands: [...prevState.brands, newBrand],
