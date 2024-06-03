@@ -12,5 +12,5 @@ dengan aturan:
 - CRUD ( Change, Read, Update, Delete )
 
 Note:
-[Contoh hasil jadi](./Alif-angga/02/App.js)
+[Contoh hasil jadi](./Alif-angga/03)
 
