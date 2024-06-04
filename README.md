@@ -2,15 +2,16 @@
 
 Latihan hari ini:
 
-Melanjutkan map() kemarin:
-![image](https://github.com/playmakermz/Team-E-React/assets/60807663/08468cd6-3c87-4278-9fd5-e9d3ecf664fc)
+Function compononent:
+![image](https://github.com/playmakermz/Team-E-React/assets/60807663/bda0592d-7a86-4ba5-8fe0-2692823eccd9)
+
 
 
 
 
 dengan aturan:
-- CRUD ( Change, Read, Update, Delete )
+- Form, dan counter
 
 Note:
-[Contoh hasil jadi](./Alif-angga/03)
+[Contoh hasil jadi](./Alif-angga/04)
 
