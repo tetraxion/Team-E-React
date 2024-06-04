@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #000000;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #6272a4;
+  border-radius: 0.5em;
+  width: 100%;
+  color: #ffffff;
+  background-color: #56c778;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #fdfffd;
+}
+
+.button {
+  height: 6em;
+  background-color: #34d87e;
+  padding: 1.5em;
+  will-change: filter;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: filter 300ms;
+}
+.button:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+
